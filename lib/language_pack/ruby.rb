@@ -95,6 +95,10 @@ WARNING
       setup_language_pack_environment
       setup_export
       setup_profiled
+      puts "ENV:"
+      puts ENV.inspect
+      puts "#############"
+      raise 'XXX'
       allow_git do
         install_bundler_in_app
         build_bundler
